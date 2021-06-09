@@ -1,7 +1,23 @@
 body {
     background-color: rgb(252, 252, 252);
     color: rgb(0, 0, 0);
+    
 }
 footer {
     text-align: center;
 }
+ul#atama {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 0 15px;    
+} /*This "li" belong to UL#ATAMA.*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
