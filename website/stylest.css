@@ -4,6 +4,7 @@ body {
     background-color: rgb(252, 252, 252);
     color: rgb(0, 0, 0);
     font-family: 'Montserrat', sans-serif;
+    margin: 0 15px;
 }
 footer {
     text-align: center;
@@ -27,3 +28,10 @@ nav p {
     font-weight: bold;
 }
 
+div#languages {
+    display: flex;
+}
+
+div#languages p {
+    margin: 0 15px;
+}
