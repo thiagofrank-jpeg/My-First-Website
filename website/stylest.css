@@ -32,6 +32,6 @@ div#languages {
     display: flex;
 }
 
-div#languages p {
+div#languages a {
     margin: 0 15px;
 }
