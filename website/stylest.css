@@ -35,3 +35,8 @@ div#languages {
 div#languages a {
     margin: 0 15px;
 }
+
+div#logo{
+    display: flex;
+    justify-content: space-between;
+}
