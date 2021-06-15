@@ -37,6 +37,7 @@ div#languages {
 
 div#languages a {
     margin: 0 15px;
+    margin-top: 300px;
 }
 
 .logo{
@@ -59,4 +60,5 @@ div#skill {
     justify-content: space-between;
     margin: 0 15px;
 }
+
 
