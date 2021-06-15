@@ -48,3 +48,15 @@ h1#introduction {
     text-align: center;
     margin-top: 100px;
 }
+div#skill {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.skill-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
