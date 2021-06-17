@@ -9,7 +9,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: auto;
     width: 100vw;
+    overflow-x: hidden;
 }
+
+header {
+    background: url('https://images.unsplash.com/photo-1530634082454-f57b7d567b25?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');   
+}
+
 footer {
     text-align: center;
     color: rgb(0, 0, 0);
@@ -43,11 +49,6 @@ div#languages a {
     margin-top: 300px;
 }
 
-.logo{
-    display: flex;
-    justify-content: space-between;
-}
-
 h1#introduction {
     text-align: center;
     margin-top: 100px;
@@ -62,15 +63,9 @@ div#skill {
 .skill-list {
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: auto 30px;
     margin-top: 70px;
-}
-
-div#logos {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
 }
 
 
