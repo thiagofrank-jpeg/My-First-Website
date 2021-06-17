@@ -7,7 +7,7 @@ body {
     background-color: rgb(252, 252, 252);
     color: rgb(0, 0, 0);
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
+    margin: auto;
     width: 100vw;
 }
 footer {
@@ -20,7 +20,8 @@ ul#atama {
 }
 
 li {
-    margin: 0 15px;    
+    margin: 0 15px;
+        
 } /*This "li" belong to UL#ATAMA.*/
 
 nav {
@@ -66,7 +67,11 @@ div#skill {
     margin-top: 70px;
 }
 
-
+div#logos {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
