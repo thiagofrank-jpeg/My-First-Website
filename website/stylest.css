@@ -14,7 +14,7 @@ body {
 
 header {
     height: 400px;
-    background: no-repeat center/100% url('https://images.unsplash.com/photo-1623310075009-f89bfd8142e4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');   
+    background: no-repeat center/100% url('https://images2.alphacoders.com/546/thumb-1920-546441.jpg');   
 }
 
 footer {
@@ -35,10 +35,11 @@ li {
 } /*This "li" belong to UL#ATAMA.*/
 
 nav {
-    color: black;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     margin: auto 30px;
+    font-size: 20px;
 }
 
 nav p {
@@ -86,4 +87,22 @@ div#aboutMe {
     background-color: whitesmoke;
 }
 
+.thiagoFrank {
+    margin-top: 30px;
+}
 
+.phraseNav {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-top: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(17, 39, 134);
+}
+
+.linkAboutMe {
+    color: white;
+}
