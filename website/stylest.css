@@ -19,8 +19,9 @@ header {
 
 footer {
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 40px 40px 40px 40px;
+    background-color: black;
 }
 ul#atama {
     list-style: none;
@@ -28,7 +29,7 @@ ul#atama {
 }
 
 li {
-    margin: 0 15px;
+    margin: 20px 15px;
     list-style: none;
         
 } /*This "li" belong to UL#ATAMA.*/
@@ -75,7 +76,11 @@ div#skill {
     text-align: center;
     margin-top: 50px;
     margin-right: 35px;
+    margin-bottom: 40px;
 }
 
+.aboutMe {
+    text-align: center;
+}
 
 
