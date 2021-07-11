@@ -11,7 +11,7 @@ body {
     width: 100vw;
     overflow-x: hidden;
 }
-
+  
 header {
     height: 400px;
     background: no-repeat center/100% url('https://images2.alphacoders.com/546/thumb-1920-546441.jpg');   
@@ -73,7 +73,7 @@ div#skill {
     margin-top: 70px;
 }
 
-.socialMedia {
+div#socialMedia {
     text-align: center;
     margin-top: 50px;
     margin-right: 35px;
