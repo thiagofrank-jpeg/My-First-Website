@@ -1,108 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); /*Mother font*/
-* {
-    box-sizing: border-box;
+*{
+    font-family: sans-serif;
 }
 
 body {
-    background-color: rgb(252, 252, 252);
-    color: rgb(0, 0, 0);
-    font-family: 'Montserrat', sans-serif;
-    margin: auto;
-    width: 100vw;
-    overflow-x: hidden;
-}
-  
-header {
-    height: 400px;
-    background: no-repeat center/100% url('https://images2.alphacoders.com/546/thumb-1920-546441.jpg');   
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-footer {
+figure{
+    background-color: rgb(204, 203, 203);
     text-align: center;
-    color: rgb(255, 255, 255);
-    padding: 40px 40px 40px 40px;
-    background-color: black;
-}
-ul#atama {
-    list-style: none;
-    display: flex;
+    padding: 15px;
+    margin: 30px;
+    border: 1px solid black;
 }
 
-li {
-    margin: 20px 15px;
-    list-style: none;
-        
-} /*This "li" belong to UL#ATAMA.*/
-
-nav {
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-between;
-    margin: auto 30px;
-    font-size: 20px;
+figcaption {
+    margin-top: 10px;
 }
 
-nav p {
-    font-weight: bold;
+.imgAboutMe {
+    width: 275px;
+    float: right;
 }
 
-div#languages {
-    display: flex;
+figure img{
+    width: 100%;
 }
 
-div#languages a {
-    margin: auto 30px;
-    margin-top: 300px;
-}
-
-h1#introduction {
-    text-align: center;
-    margin-top: 100px;
-}
-div#skill {
-    text-align: center;
-    height: 300px;
-    margin: 0px 20px 0px 0px;
-}
-
-.skill-list {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    margin: auto 30px;
-    margin-top: 70px;
-}
-
-div#socialMedia {
-    text-align: center;
-    margin-top: 50px;
-    margin-right: 35px;
-    margin-bottom: 40px;
-}
-
-div#aboutMe {
-    text-align: center;
-    margin: 20px 30px 20px 20px;
-    padding: 20px 0 120px 0;
-    background-color: whitesmoke;
-}
-
-.thiagoFrank {
-    margin-top: 30px;
-}
-
-.phraseNav {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    margin-top: 100px;
-}
-
-a {
-    text-decoration: none;
-    color: rgb(17, 39, 134);
-}
-
-.linkAboutMe {
-    color: white;
-}
